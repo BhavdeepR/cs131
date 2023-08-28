@@ -1,0 +1,10 @@
+    1  insights-client --register
+    2  passwd
+    3  wget http://www.github.com/
+    4  cwd
+    5  pwd
+    6  ls
+    7  git clone https://github.com/BhavdeepR/cs131.git
+    8  ls
+    9  cd cs131
+   10  history > cmds.log

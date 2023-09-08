@@ -1,0 +1,73 @@
+    1  insights-client --register
+    2  passwd
+    3  wget http://www.github.com/
+    4  cwd
+    5  pwd
+    6  ls
+    7  git clone https://github.com/BhavdeepR/cs131.git
+    8  ls
+    9  cd cs131
+   10  history > cmds.log
+   11  git status
+   12  mkdir Worksheet1
+   13  mv ~cmds.log ~Worksheet1/cmds.log
+   14  mv ~/cs131/cmds.log ~/cs131/Worksheet1/cmds.log
+   15  ls
+   16  cd Worksheet1
+   17  ls
+   18  cd
+   19  git status
+   20  cd cs131/
+   21  git status
+   22  git add .
+   23  git status
+   24  git commit -m "added Worksheet1 with cmd log through vm"
+   25  git config --global user.email "bhavdeepr19@gmail.com"
+   26  git config --global user.name "BhavdeepR"
+   27  git commit -m "added Worksheet1 with cmd log through vm"
+   28  git push origin main
+   29  https://github.com/BhavdeepR/cs131.git
+   30   cd ~/.ssh && ssh-keygen
+   31  mkdir ~/.ssh
+   32  cd ~/.ssh && ssh-keygen
+   33  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+   34  man grep
+   35  ls
+   36  cd 'Global Youtube Statistics.csv'
+   37  ls
+   38  grep 'United States' 'Global Youtube Statistics.csv'
+   39  grep 'United States' /'Global Youtube Statistics.csv'
+   40  cd 'Global YouTube Statistics.csv'
+   41  grep 'United States' 'Global YouTube Statistics.csv'
+   42  grep 'Music' 'Global YouTube Statistics.csv'
+   43  grep wc 'Music' 'Global YouTube Statistics.csv'
+   44  wc grep 'Music' 'Global YouTube Statistics.csv'
+   45  man wc
+   46  grep 'Music' 'Global YouTube Statistics.csv'|wc -l
+   47  cd /
+   48  ls
+   49  cd bin
+   50  ls
+   51  cd /
+   52  cd home
+   53  ls
+   54  cd bhavdeepf23
+   55  ls
+   56  cd cs131/
+   57  ls
+   58  cd 
+   59  ls
+   60  counts.txt >> cs131
+   61  mv counts.txt cs131
+   62  ls
+   63  cd cs131/
+   64  ls
+   65  mkdir Worksheet2
+   66  ls
+   67  vim counts.txt
+   68  cat counts.txt
+   69  git status
+   70  git add .
+   71  git status
+   72  git commit -m "Added the count.txt file for WS2"
+   73  history > cmds.log

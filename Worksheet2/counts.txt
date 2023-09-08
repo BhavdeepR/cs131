@@ -1,0 +1,2 @@
+Number of lines with country of "United States": 302
+Number of lines with category of "Music": 238

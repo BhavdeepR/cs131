@@ -1,0 +1,34 @@
+  142  sort -t ',' -k 16 'Globabl YouTube Statistics.csv'
+  143  sort -t ',' -k 16 'Global YouTube Statistics.csv'
+  144  sort -t ',' -k 16 -n -r 'Global YouTube Statistics.csv'| head -n 10
+  160  cd ..
+  161  ls
+  162  sort -t ',' -k 16 -n -r 'Global YouTube Statistics.csv' > sorted_country_earnings.csv
+  163  ls
+  164  mkdir Worksheet3
+  165  mv sorted_country_earnings.csv Worksheet3
+  166  cd Worksheet3
+  167  ls
+  168  grep 'United States' sorted_country_earnings.csv | head -n 1 > ws3.txt
+  169  cat ws3.txt
+  170  grep 'United Kingdom' sorted_country_earnings.csv | head -n 1 >> ws3.txt
+  171  grep 'India' sorted_country_earnings.csv | head -n 1 >> ws3.txt
+  172  cat ws3.txt 
+  173  ls
+  174  cd ..
+  175  ls
+  179  ls
+  180  grep -E '^[^,]*,[^,]*,[^,]*,[^,]*,Sports,' 'Global YouTube Statistics.csv'| head -n 1 > subs_by_category.csv
+  181  cat subs_by_category.csv 
+  182  grep -E '^[^,]*,[^,]*,[^,]*,[^,]*,Education,' 'Global YouTube Statistics.csv'| head -n 1 >> subs_by_category.csv
+  183  grep -E '^[^,]*,[^,]*,[^,]*,[^,]*,Entertainment,' 'Global YouTube Statistics.csv'| head -n 1 >> subs_by_category.csv
+  184  cat subs_by_category.csv 
+  185  mv subs_by_category.csv Worksheet3
+  186  cd Worksheet3
+  187  ls
+  188  cat subs_by_category.csv >> ws3.txt
+  189  cat ws3.txt
+  190  vi ws3.txt 
+  191  cat ws3.txt 
+  192  ls
+  193  history > cmds.log

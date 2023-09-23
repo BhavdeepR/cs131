@@ -1,0 +1,35 @@
+1)
+  218  mkdir Assignment1
+  219  cd Assignment1/
+2)
+  220  echo $SHELL
+  221  echo $HOME
+3)
+  222  id -u
+  223  id -Gn
+
+4)
+  236  mkdir myDir
+  237  chmod u-w myDir
+  238  ls myDir
+  239  ls -l myDir
+  240  cd myDir
+  241  touch file.txt
+  242  cd ..
+
+5) 
+  243  mkdir myDir2
+  244  mkdir myDir3
+
+6)
+  245  cd myDir2 
+  246  touch myFile.txt
+  247  mv myFile.txt ../myDir2
+  248  cd ..
+  249  free -m
+
+9)
+  250  cat /etc/os-release
+
+10
+  251  ls -l /etc/os-release

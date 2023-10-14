@@ -1,0 +1,9 @@
+  381  cd cs131
+  382  ls
+  383  mkdir Assignment2
+  384  cd Assignment2
+  385  ls a
+  386  ls -a
+  387  script Assignment2.txt
+  388  ls
+  389  history > cmds.log

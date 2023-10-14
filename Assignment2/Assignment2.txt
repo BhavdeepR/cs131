@@ -1,0 +1,73 @@
+Script started on 2023-10-13 18:18:16-04:00
+
+1)
+	a)
+	We are doing a recursive search for all files in the /etc directory. All files that are found
+	are written into one.txt and if any errors occur then it will be displayed in two.txt.
+
+	b)
+	bash-4.4$ fint /[K[K[K[Kd[Knd /etc -type f > one.txt 2?[K> two.txt
+	
+	bash-4.4$ head -5 one.txt
+	/etc/fstab
+	/etc/crypttab
+	/etc/multipath.conf
+	/etc/multipath/wwids
+	/etc/asciidoc/xhtml11.conf
+
+	These are the first five files found using the 'find' command.
+
+	bash-4.4$ head -5 two.txt
+	find: ‘/etc/pki/rsyslog’: Permission denied
+	find: ‘/etc/lvm/archive’: Permission denied
+	find: ‘/etc/lvm/backup’: Permission denied
+	find: ‘/etc/lvm/cache’: Permission denied
+	find: ‘/etc/firewalld’: Permission denied
+	
+	These are the first five file where errors occurred. There was an issue with accessing the file.
+
+2)
+
+	1. March, 2006 with 15 channels
+	2. July, 2014 with 13 channels
+	3. August, 2014 with 12 channels
+	The command I used to find it:  cut -d ',' -f 22,23 GYS.csv | sort | uniq -c | sort -nr | head -3
+
+Explanation:
+	I only wanted the the Month and Year so I used cut and ',' as a delimeter to retrieve those
+	columns. I then counted how many unique ocurrnces there were of each month and sorted them in
+	descending order. Finally, I returned the top three.
+
+3)
+
+	ps -u bhavdeepf23
+
+Output:
+	    PID TTY          TIME CMD
+	3534512 ?        00:00:02 systemd
+	3534514 ?        00:00:00 (sd-pam)
+	3534520 ?        00:00:00 sshd
+	3534523 pts/107  00:00:00 bash
+	3616605 ?        00:00:00 sshd
+	3616608 pts/93   00:00:00 bash
+	3619653 pts/93   00:00:00 script
+	3619655 pts/94   00:00:00 bash
+	3679944 pts/94   00:00:00 ps
+
+
+4)
+
+	b) There are three new processes that were not there from Q3. They include sshd, bash, and vim. The Process ID for vim is 3692891.
+
+	d) The vim process is no longer there because I quit the process in the other terminal.
+
+5)
+	The init or systemd process is responsible for system initialization and services.
+	PID: 1
+	Command: ps aux | grep 'systemd' 
+
+6)
+	The 'ps aux' command gives a detailed view of all processes running on the operating system. With the option 'a' it returns processes
+	from all terminals. With 'u' the information is displayed in a user friendly format. And with 'x' processes not associated with a
+	terminal, such as background processes, will also be displayed
+

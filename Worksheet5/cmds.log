@@ -1,0 +1,27 @@
+  431  mkdir Worksheet5
+  432  touch script.sh
+  433  vi script.sh 
+  434  head -5 GYS.csv 
+  435  vi script.sh 
+  436  chmod +x script.sh
+  437  ls
+  438  vi script.sh 
+  439  ./script.sh Music Entertainment Gaming Comedy
+  440  vi script.sh 
+  441  ./script.sh Music Entertainment Gaming Comedy
+  442  vi script.sh 
+  443  ./script.sh Music Entertainment Gaming Comedy
+  444  ls
+  445  cat ws5.txt
+  446  cd Worksheet5
+  447  ls
+  448  cd ..
+  449  mv ws5.txt Worksheet5
+  450  mv script.sh Worksheet5
+  451  cd Worksheet5
+  452  ls
+  453  cat UnitedStates/
+  454  cd UnitedStates/
+  455  ls
+  456  cat Comedy.txt 
+  457  history > cmds.log
